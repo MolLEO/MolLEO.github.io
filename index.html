@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/images/carousel2.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> --> 
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <!-- <meta name="keywords" content="LLMs, Adaptation">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> --> 
+
+
+  <title>MOLLEO</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" style="font-size: 2.9em; font-weight: bold;">MOLLEO<br><span style="font-size: 0.8em; font-weight: normal;">Efficient Evolutionary Search Over Chemical Space with Large Language Models</span></h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                Haorui Wang</a><sup>*,1</sup>,</span>
+                <span class="author-block">
+                  Marta Skreta</a><sup>*,2,3</sup>,</span>
+                  <span class="author-block">
+                    Cher-Tian Ser</a><sup>2</sup>,</span>
+                    <span class="author-block">
+                      Wenhao Gao</a><sup>4</sup>,</span>
+                      <span class="author-block">
+                        Lingkai Kong</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                          Felix Streith-Kalthoff</a><sup>5</sup>,</span>
+                          <span class="author-block">
+                            Chenru Duan</a><sup>6</sup>,</span>
+                          <span class="author-block">
+                            Yuchen Zhuang</a><sup>1</sup>,</span>
+                            <span class="author-block">
+                              Yue Yu</a><sup>1</sup>,</span>
+                              <span class="author-block">
+                                Yanqiao Zhu</a><sup>7</sup>,</span>
+                                <span class="author-block">
+                                  Yuanqi Du</a><sup>†,8</sup>,</span>
+                                  <span class="author-block">
+                                    Alán Aspuru-Guzik</a><sup>†,2,3</sup>,</span>
+                                    <span class="author-block">
+                                      Kirill Neklyudov</a><sup>†,9,10</sup>,</span>
+                                      <span class="author-block">
+                                        Chao Zhang</a><sup>†,1</sup>
+
+                  </span>
+                  
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Georgia Institute of Technology,</span>
+                    <span class="author-block"><sup>2</sup>University of Toronto,</span>
+                    <span class="author-block"><sup>3</sup>Vector Institute,</span>
+                    <span class="author-block"><sup>4</sup>Massachusetts Institute of Technology,</span>
+                    <span class="author-block"><sup>5</sup>University of Wuppertal,</span>
+                    <span class="author-block"><sup>6</sup>Deep Principle Inc.,</span>
+                    <span class="author-block"><sup>7</sup>University of California, Los Angeles,</span>
+                    <span class="author-block"><sup>8</sup>Cornell University,</span>
+                    <span class="author-block"><sup>9</sup>Université de Montréal,</span>
+                    <span class="author-block"><sup>10</sup>Mila - Quebec AI Institute,</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Equal Senior-Authorship</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/zoom-wang112358/MOLLEO" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <!-- Your video here -->
+        <img src="static/images/molleo_overview.gif" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        MOLLEO uses chemistry-aware LLMs inside mutation and crossover operations to propose new molecules in the evolutionary searching process.       </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Molecular discovery, when formulated as an optimization problem, presents significant computational challenges because optimization objectives can be non-differentiable. 
+Evolutionary Algorithms (EAs), often used to optimize black-box objectives in molecular discovery, traverse chemical space by performing random mutations and crossovers, leading to a large number of expensive objective evaluations.
+In this work, we ameliorate this shortcoming by incorporating chemistry-aware Large Language Models (LLMs) into EAs.
+Namely, we redesign crossover and mutation operations in EAs using LLMs trained on large corpora of chemical information. We perform extensive empirical studies on both commercial and open-source models on multiple tasks involving property optimization, molecular rediscovery, and structure-based drug design, demonstrating that the joint usage of LLMs with EAs yields superior performance over all baseline models across single- and multi-objective settings. 
+We demonstrate that our algorithm improves both the quality of the final solution and convergence speed, thereby reducing the number of required objective evaluations.           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Introduction</h2>
+    Molecular discovery is a complex and iterative process involving the design, synthesis, evaluation, and refinement of molecule candidates. One significant challenge is that evaluating molecular properties often requires expensive evaluations (oracles).
+    <br /><br />
+    Evolutionary Algorithms (EAs) are often used to generate molecular candidates since they do not require the evaluation of gradients and are thus well-suited for black-box objectives in molecular discovery. However, they randomly generate proposals and require many evaluations of the objective function. Hence, incorporating task-specific information into the proposal generation can reduce the number of evaluations needed, enhancing their practical application.
+    <br /><br />
+    In this work, we propose MOLLEO, which incorporates LLMs into EAs to enhance the quality of generated proposals and accelerate the optimization process. MOLLEO leverages LLMs as genetic operators to produce new proposals through crossover or mutation.
+    <br><br>
+    <img src="static/images/lgga_overview.png" alt="MY ALT TEXT">
+    <br>
+    <h2 class="title">Experiments</h2>
+    <br>
+    We evaluate MOLLEO on 18 total tasks from two molecular generation benchmarks, including single-objective optimization and multi-objective optimization.     <ul>
+    <h3 class="title">Single-objective optimization</h3>
+    <img src="static/images/main_table.png" alt="MY ALT TEXT">
+    <br>
+    Employing any of the three LLMs we tested as genetic operators improves performance over the default Graph-GA and all other baselines. Notably, MOLLEO(GPT-4) outperforms all models in 9 out of 12 tasks, demonstrating its utility in molecular generation. MOLLEO(BioT5) achieves the second-best results out of all the models tested, obtaining a
+    total score close to that of MOLLEO(GPT-4), and has the benefit of being free to use.
+    <h3 class="title">Effectiveness of LLMs in GA</h3>
+    <br>
+    <img src="static/images/optim_example_freq.png" alt="MY ALT TEXT">
+    <br>
+    In the above figure, we show the fitness distribution of an initial pool of random molecules inhibiting JNK3.
+    We then perform a single round of edits to all molecules in the pool using each LLM and plot the
+    resulting fitness distribution of the edited molecules. We find that the distribution for each LLM shifts
+    to slightly higher fitness values, indicating that LLMs do provide useful modifications. However,
+    the overall objective scores are still low, and so single-step editing is not sufficient. 
+    <h3 class="title">Multi-objective optimization</h3>
+    <br>
+    <img src="static/images/multi_table.png" alt="MY ALT TEXT">
+    <br>
+    Multi-objective optimization is a more challenging task, which is are inspired by goals in drug discovery and aim for simultaneous optimization of several objectives. 
+    We find that MOLLEO(GPT-4) consistently outperforms the baseline Graph-GA in all three tasks in terms of hypervolume and summation.
+    <h3 class="title">Case Study</h3>
+    <br>Here is a case study of MOLLEO(GPT-4) on deco_hop task. We display the top-10 candidate molecules across all runs.
+    <br><br>
+    <img src="static/images/deco_hop_gpt4.png" alt="MY ALT TEXT">
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{Blank, Blank
+  }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+ 
+  </body>
+  </html>
